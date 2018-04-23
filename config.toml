@@ -1,0 +1,82 @@
+
+languageCode = "en-us"
+title = "Cosmic Engineer"
+baseurl = "/"
+theme = "hugo-theme-learn"
+
+
+[params]
+  # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page. 
+  # Useful to give opportunity to people to create merge request for your doc.
+  # See the config.toml file from this documentation site to have an example.
+  editURL = ""
+  # Author of the site, will be used in meta information
+  author = ""
+  # Description of the site, will be used in meta information
+  description = ""
+  # Shows a checkmark for visited pages on the menu
+  showVisitedLinks = false
+  # Disable search function. It will hide search bar
+  disableSearch = false
+  # Javascript and CSS cache are automatically busted when new version of site is generated. 
+  # Set this to true to disable this behavior (some proxies don't handle well this optimization)
+  disableAssetsBusting = false
+  # Set this to true to disable copy-to-clipboard button for inline code.
+  disableInlineCopyToClipBoard = false
+  # A title for shortcuts in menu is set by default. Set this to true to disable it. 
+  disableShortcutsTitle = false
+  # When using mulitlingual website, disable the switch language button.
+  disableLanguageSwitchingButton = false
+  # Order sections in menu by "weight" or "title". Default to "weight"
+  ordersectionsby = "weight"
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "green"
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-rss-square'></i> Subscribe for updates"
+identifier = "rss"
+url = "/posts/index.xml"
+weight = 1
+
+[[menu.shortcuts]] 
+name = "<i class='fa fa-github'></i> Git repo"
+identifier = "ds"
+url = "https://github.com/stephenmkbrady/Miskatonic_University_Model"
+weight = 10
+
+#[[menu.shortcuts]] 
+#name = "<i class='fa fa-gitlab'></i> Gitlab"
+#identifier = "ds2"
+#url = "https://github.com/matcornic/hugo-theme-learn"
+#weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-camera'></i> Showcases"
+url = "/showcase"
+weight = 12
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-envelope'></i> email"
+identifier = "email"
+url = "mailto:rasput@protonmail.com"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-comment'></i> IRC (no account needed)"
+identifier = "chat"
+url = "https://kiwiirc.com/client/irc.rizon.net/?nick=unnamed|?#cosmic_horror"
+weight = 21
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-comment'></i> matrix chat (no account needed)"
+identifier = "chat2"
+url = "https://riot.im/app/#/room/#cosmic_horror:matrix.org"
+weight = 22
+
+#[[menu.shortcuts]]
+#name = "<i class='fa fa-bullhorn'></i> Credits"
+#url = "/credits"
+#weight = 30
+
+[outputs]
+  home = [ "HTML", "RSS", "JSON"]
