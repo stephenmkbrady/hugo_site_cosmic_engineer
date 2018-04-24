@@ -13,7 +13,7 @@ The goal of this project is to design, build and create a modern day model of Lo
 
 ----
 ## Introduction
-Where the Miskatonic University is involved there are contradictions, and suprisingly, pieces left to be added. Using many reference images, _lovecraft country aesthetic_, maps made for board games and by fans, we've pieced together what the campus would look like in the late 80's. Based on this, there's enough to bring it into the 21st century, using artistic license.
+Where the Miskatonic University is involved there are contradictions, and suprisingly, pieces left to be added. Using many reference images, lovecraft country aesthetic, maps made for board games and by fans, we've pieced together what the campus would look like in the late 80's. Based on this, there's enough to bring it into the 21st century, using artistic license.
 
 ----
 ## Project Ethos
